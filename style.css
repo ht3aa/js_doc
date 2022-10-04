@@ -62,3 +62,18 @@ body {
 p {
   width: 70%;
 }
+
+@media only screen and (max-width: 500px) {
+  p {
+    width: 100%;
+  }
+}
+
+code {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: rgb(37, 37, 37);
+  direction: ltr;
+  color: white;
+  display: inline-block;
+}
