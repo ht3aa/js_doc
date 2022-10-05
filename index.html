@@ -38,5 +38,23 @@
       بوليين boolean: (كلمة true أو كلمة false)<code>true or false</code>
     </li>
   </ol>
+
+  <script>
+    let allH2 = Array.from(document.querySelectorAll("h2"))
+    let allP = Array.from(document.querySelectorAll("p"))
+    let allLi = Array.from(document.querySelectorAll("ol li"))
+
+    for(let i = 0; i < 20; i++) {
+      try {
+      console.log(allH2[i].innerText)
+      console.log(allP[i].innerText)
+      console.log(allLi[i].innerText)
+      } catch(er) {
+
+      }
+    }
+
+
+  </script>
   </body>
 </html>
